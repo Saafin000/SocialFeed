@@ -12,6 +12,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
+    'https://social-feed-beta.vercel.app',
+    'https://social-feed-ladn89823-saafin000s-projects.vercel.app',
     process.env.FRONTEND_URL,
   ].filter(Boolean),
   credentials: true,
